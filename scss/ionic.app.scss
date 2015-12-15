@@ -1,0 +1,92 @@
+/*
+To customize the look and feel of Ionic, you can override the variables
+in ionic's _variables.scss file.
+
+For example, you might change some of the default colors:
+
+*/
+
+$light:                           #fff !default;
+$stable:                          #f8f8f8 !default;
+$positive:                        #32A8E6 !default;
+$calm:                            #5ac7e2 !default;
+$balanced:                        #86d44d !default;
+$energized:                       #f9b920 !default;
+$assertive:                       #ff5c5d !default;
+$royal:                           #9074a3 !default;
+$dark:                            #323a45 !default;
+
+
+// Base
+// -------------------------------
+
+$font-family-sans-serif:          "Helvetica Neue", "Roboto", "Segoe UI", sans-serif !default;
+$font-family-light-sans-serif:    "HelveticaNeue-Light", "Roboto-Light", "Segoe UI-Light", sans-serif-light !default;
+
+$font-family-base:                $font-family-sans-serif !default;
+$font-size-base:                  14px !default;
+$font-size-large:                 18px !default;
+$font-size-small:                 11px !default;
+
+$line-height-base:                1.428571429 !default; // 20/14
+$line-height-computed:            floor($font-size-base * $line-height-base) !default; // ~20px
+$line-height-large:               1.33 !default;
+$line-height-small:               1.5 !default;
+
+$headings-font-family:            $font-family-base !default;
+$headings-font-weight:            500 !default;
+$headings-line-height:            1.2 !default;
+
+$base-background-color:           #eeeeee !default;
+$base-color:                      #000 !default;
+
+
+
+// The path for our ionicons font files, relative to the built CSS in www/css
+$ionicons-font-path: "../lib/ionic/fonts" !default;
+
+// Include all of Ionic
+@import "www/lib/ionic/scss/ionic";
+
+.card {
+  box-shadow: none;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.button {
+  // set the color defaults
+  @include button-style($button-default-bg, $button-default-border, $button-default-active-bg, $button-default-active-border, $button-default-text);
+  border-radius: $button-border-radius;
+  transition: all 0.15s ease;
+  text-transform: uppercase;
+
+  &.active,
+  &.activated {
+    -webkit-transform: scale(0.95);
+    -moz-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+    -o-transform: scale(0.95);
+    transform: scale(0.95);
+
+  }
+}
+
+.list-no-border{
+  .item{
+    border-width: 0;
+  }
+}
+
+.header-background{
+  .bar{
+    background: transparent !important;
+    .title,
+    .button{
+      color: #FFFFFF !important;
+    }
+  }
+}
+.slider-pager .slider-pager-page{
+  color: #ffffff;
+}
