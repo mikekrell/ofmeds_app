@@ -1,108 +1,5 @@
 var app = angular.module('ofmeds_app.services', [])
-app.factory('PushWoosh', function ($q, $rootScope, $window) {
 
-  $window.addEventListener('push-notification', function (event) {
-
-    var notification = {};
-
-    if (ionic.Platform.isIOS()) {
-      notification.title = event.notification.aps.alert;
-      notification.meta = event.notification.userdata;
-    }
-
-    if (ionic.Platform.isAndroid()) {
-      notification.title = event.notification.title;
-      notification.meta = event.notification.userdata;
-    }
-
-    // Not tested
-    if (ionic.Platform.isWindowsPhone()) {
-      notification.title = event.notification.content;
-      notification.meta = event.notification.userdata;
-    }
-    alert(event.notification.content);
-    $rootScope.$broadcast('event:push-notification', notification);
-
-  });
-
-  return {
-
-    init: function (pwAppId, googleProjectNumber) {
-
-      var defer = $q.defer();
-
-      if (!pwAppId) {
-        defer.reject('Please provide your pushwoosh app id.');
-      }
-
-      else if (!window.plugins || !window.plugins.pushNotification) {
-        defer.reject('Push Notification not enabled.');
-      }
-
-      else {
-
-        var pushNotification = window.plugins.pushNotification;
-
-        if (ionic.Platform.isIOS()) {
-          pushNotification.onDeviceReady({pw_appid: pwAppId});
-        }
-
-        if (ionic.Platform.isAndroid()) {
-          pushNotification.onDeviceReady({projectid: googleProjectNumber, appid: pwAppId});
-        }
-
-        // Not tested
-        if (ionic.Platform.isWindowsPhone()) {
-          pushNotification.onDeviceReady({appid: pwAppId, serviceName: ''});
-        }
-
-        defer.resolve();
-
-      }
-
-      return defer.promise;
-
-    },
-
-    registerDevice: function () {
-
-      var defer = $q.defer();
-
-      var pushNotification = window.plugins.pushNotification;
-
-      pushNotification.registerDevice(
-        function (status) {
-
-          var deviceToken;
-
-          if (ionic.Platform.isIOS()) {
-            deviceToken = status.deviceToken;
-          }
-
-          if (ionic.Platform.isAndroid()) {
-            deviceToken = status;
-          }
-
-          // Not tested
-          if (ionic.Platform.isWindowsPhone()) {
-            deviceToken = status;
-          }
-
-          defer.resolve(deviceToken);
-
-        },
-        function (status) {
-          defer.reject(status);
-        }
-      );
-
-      return defer.promise;
-
-    }
-
-  }
-
-});
 app.factory('Cates', function () {
   // Might use a resource here that returns a JSON array
   function capitalise(string) {
@@ -3121,9 +3018,38 @@ app.service('Products', function () {
       return null;
     },
     getByCate: function (cateId) {
+
       var productCates = [];
+      var thc, cbd;
       for (var i = 0; i < leaflyProducts.length; i++) {
         if (leaflyProducts[i].type === cateId) {
+          if (leaflyProducts[i].type === "Flower"){
+            var descriptions = leaflyProducts[i].description.split('|');
+            leaflyProducts[i].farm = descriptions[0];
+            if (leaflyProducts[i].hasOwnProperty('strainInfo')) {
+              leaflyProducts[i].hasInfo = true;
+              leaflyProducts[i]['strainInfo'].category = descriptions[1];
+              try{
+                thc = descriptions[2].split(":")[1];
+                cbd = descriptions[3].split(":")[1];
+              }catch(e){
+                console.log(e);
+              }
+              leaflyProducts[i].thc = thc;
+              leaflyProducts[i].cbd = cbd;
+            }else {
+              leaflyProducts[i].hasInfo = false;
+              leaflyProducts[i].category = descriptions[1];
+              try{
+                thc = descriptions[2].split(":")[1];
+                cbd = descriptions[3].split(":")[1];
+              }catch(e){
+                console.log(e);
+              }
+              leaflyProducts[i].thc = thc;
+              leaflyProducts[i].cbd = cbd;
+            }
+          }
           productCates.push(leaflyProducts[i]);
         }
       }

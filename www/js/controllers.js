@@ -4,29 +4,8 @@ angular.module('ofmeds_app.controllers', [])
     .controller('IntroCtrl', function ($scope) {
 
     })
-    .controller('AppCtrl', function ($scope, $ionicPlatform, Cates, Products, Carts, PushWoosh) {
 
-      PushWoosh.init('3D5BB-E4E74', '895347061435').then(
-        function(){
-
-          // Register Device to get device token
-          PushWoosh.registerDevice().then(
-            function(deviceToken){
-              // Device Token:
-              // a8458b8bf6eff472c6bf24ef5e2qf4fac0f30ef554fa9050e89d32357d2c976
-
-            },
-            function(err){
-              alert(err);
-              // PushWoosh error
-            })
-          ;
-
-        },
-        function(err) {
-          console.log('PushWoosh init error:', err);
-        }
-      );
+    .controller('AppCtrl', function ($scope, $ionicPlatform, Cates, Products, Carts) {
 
         $scope.cates = Cates.all();
         $scope.productData = {};

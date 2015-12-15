@@ -1,3 +1,27 @@
+function initPushwoosh() {
+  var pushNotification = cordova.require("com.pushwoosh.plugins.pushwoosh.PushNotification");
+  if (device.platform == "Android") {
+    registerPushwooshAndroid();
+  }
+
+  if (device.platform == "iPhone" || device.platform == "iOS") {
+    registerPushwooshIOS();
+  }
+
+  if (device.platform == "Win32NT") {
+    registerPushwooshWP();
+  }
+
+  pushNotification.getLaunchNotification(
+    function(notification) {
+      if (notification != null) {
+        alert(JSON.stringify(notification));
+      } else {
+        alert("No launch notification");
+      }
+    }
+  );
+}
 // angular.module is a global place for creating, registering and retrieving Angular modules
 // 'starter' is the name of this angular module example (also set in a <body> attribute in index.html)
 // the 2nd parameter is an array of 'requires'

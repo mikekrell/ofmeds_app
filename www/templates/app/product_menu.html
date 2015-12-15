@@ -1,10 +1,13 @@
 <ion-view view-title="{{cate.name}}">
     <ion-header-bar align-title="center" class="bar-light">
-        <ion-nav-bar align-title="center">
-            <ion-nav-buttons>
-                <button class="button button-clear button-icon" ng-click="goBack()" ><i class="ion-chevron-left"></i></button>
-            </ion-nav-buttons>
-        </ion-nav-bar>
+        <div class="buttons">
+            <button ng-click="goBack()" class="button button-icon button-clear ion-chevron-left"></button>
+        </div>
+        <h1 class="title">{{cate.name}}</h1>
+        <div class="buttons">
+            <button class="button button-clear">SORT</button>
+        </div>
+    </ion-header-bar>
     </ion-header-bar>
     <ion-content>
         <div class="cate-lv2">
@@ -13,7 +16,7 @@
                     <img ng-src={{product.imagePath}}>
 
                     <h2>{{product.name}} {{product.id}}</h2>
-
+                    <p>{{product.farm}}</p>
                     <div class="price">${{product.pricing[0].Price}} - ${{product.pricing[product.pricing.length-1].Price}}</div>
                     <div class="like"><i class="ion-heart"></i> {{product.like}}</div>
                 </div>

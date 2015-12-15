@@ -1,0 +1,14 @@
+<ion-view view-title="Instagram">
+    <ion-header-bar align-title="center" class="bar-light">
+        <div class="buttons">
+            <button class="button button-icon button-clear ion-navicon" menu-toggle="left"></button>
+        </div>
+        <h1 class="title">Product Images</h1>
+    </ion-header-bar>
+  <ion-content ng-controller="InstaCtrl">
+	<img ng-repeat="product in products"
+         item-height="33%" item-width="33%"
+         ng-src="{{product.imagePath}}">
+         {{product.name}}
+  </ion-content>
+</ion-view>
