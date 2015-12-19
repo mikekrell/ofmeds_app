@@ -111,31 +111,31 @@ app.factory('Cates', function () {
 
   // Some fake testing data
   var cates = [{
-    id: 'Flower',
+    id: 'flower',
     class: 'item-1',
     img: 'img/category/1.jpg',
     name: 'Flowers',
     lastText: 'The finest selection of flowers.'
   }, {
-    id: 'Concentrate',
+    id: 'concentrate',
     class: 'item-2',
     img: 'img/category/2.jpg',
     name: 'Concentrates',
     lastText: 'All the best concentrates.'
   }, {
-    id: 'Edible',
+    id: 'edible',
     class: 'item-3',
     img: 'img/category/3.jpg',
     name: 'Edibles',
     lastText: 'Delicious Edibles.'
   }, {
-    id: 'Other',
+    id: 'other',
     class: 'item-4',
     img: 'img/category/4.jpg',
     name: 'Other',
     lastText: 'From creams to rubs, we\'ve got it all'
   }, {
-    id: 'Special',
+    id: 'special',
     class: 'item-5',
     img: 'img/category/5.jpg',
     name: 'Specials',
@@ -157,7 +157,7 @@ app.factory('Cates', function () {
   };
 });
 
-app.service('Products', function () {
+app.service('Products', function ($q) {
   var leaflyProducts = [
     {
       "name": "Apothecanna Pain Creme ",
@@ -511,7 +511,8 @@ app.service('Products', function () {
       "name": "Blackberry",
       "description": "RA Industries | Indica Dominant Hybrid | THC: 19.2% | CBD: 0.05%",
       "addedOn": "/Date(1446657009963+0000)/",
-      "imagePath": "https://d3h17ltqi8v019.cloudfront.net/hybrid/blackberry/badge?width=100&padding=false",
+      "imagePath": "img/product/CK5TYRABANKS.png",
+      "images" : ["img/product/CK5TYRABANKS-macro.png", "img/product/CK5TYRABANKS-thumb.png"],
       "type": "Flower",
       "preOrderEnabled": false,
       "pricing": [
@@ -531,12 +532,17 @@ app.service('Products', function () {
       "strainInfo": {
         "slug": "blackberry",
         "name": "Blackberry",
-        "category": "Hybrid",
+        "category": " Indica Dominant Hybrid ",
         "rating": 4.1,
         "ratingCount": 354,
         "symbol": "Bbr",
         "starImage": "https://d3h17ltqi8v019.cloudfront.net/stars/4/240?color=fcc91d"
-      }
+      },
+      "id": 22,
+      "farm": "RA Industries ",
+      "hasInfo": true,
+      "thc": " 19.2% ",
+      "cbd": " 0.05%"
     },
     {
       "name": "Blackwater OG",
@@ -562,12 +568,17 @@ app.service('Products', function () {
       "strainInfo": {
         "slug": "blackwater",
         "name": "Blackwater",
-        "category": "Indica",
+        "category": " Indica ",
         "rating": 4.5,
         "ratingCount": 213,
         "symbol": "Bwr",
         "starImage": "https://d3h17ltqi8v019.cloudfront.net/stars/4/240?color=fcc91d"
-      }
+      },
+      "id": 23,
+      "farm": "Ripped City Gardens ",
+      "hasInfo": true,
+      "thc": " 27.2% ",
+      "cbd": " 0.09%"
     },
     {
       "name": "Blood Orange Royal Jelly",
@@ -607,12 +618,17 @@ app.service('Products', function () {
       "strainInfo": {
         "slug": "blue-dream",
         "name": "Blue Dream",
-        "category": "Hybrid",
+        "category": " Sativa Dominant Hybrid ",
         "rating": 4.3,
         "ratingCount": 7821,
         "symbol": "Bd",
         "starImage": "https://d3h17ltqi8v019.cloudfront.net/stars/4/240?color=fcc91d"
-      }
+      },
+      "id": 25,
+      "farm": "House of Concentrates ",
+      "hasInfo": true,
+      "thc": " 20.5% ",
+      "cbd": " 0.01%"
     },
     {
       "name": "Bud Rub ",
@@ -967,12 +983,17 @@ app.service('Products', function () {
       "strainInfo": {
         "slug": "durban-poison",
         "name": "Durban Poison",
-        "category": "Sativa",
+        "category": " Sativa ",
         "rating": 4.4,
         "ratingCount": 1264,
         "symbol": "Dp",
         "starImage": "https://d3h17ltqi8v019.cloudfront.net/stars/4/240?color=fcc91d"
-      }
+      },
+      "id": 48,
+      "farm": "Humankind ",
+      "hasInfo": true,
+      "thc": " 20.6% ",
+      "cbd": " 0.09%"
     },
     {
       "name": "Durban Poison",
@@ -998,12 +1019,17 @@ app.service('Products', function () {
       "strainInfo": {
         "slug": "durban-poison",
         "name": "Durban Poison",
-        "category": "Sativa",
+        "category": " Sativa ",
         "rating": 4.4,
         "ratingCount": 1264,
         "symbol": "Dp",
         "starImage": "https://d3h17ltqi8v019.cloudfront.net/stars/4/240?color=fcc91d"
-      }
+      },
+      "id": 49,
+      "farm": "Sofresh Farms ",
+      "hasInfo": true,
+      "thc": " 25.3% ",
+      "cbd": " 0.10% "
     },
     {
       "name": "Echo Electuary | Hunny Be CBD 1:1 CBD",
@@ -1382,12 +1408,17 @@ app.service('Products', function () {
       "strainInfo": {
         "slug": "fruity-pebbles",
         "name": "Fruity Pebbles",
-        "category": "Hybrid",
+        "category": " Hybrid ",
         "rating": 4.3,
         "ratingCount": 345,
         "symbol": "Fp",
         "starImage": "https://d3h17ltqi8v019.cloudfront.net/stars/4/240?color=fcc91d"
-      }
+      },
+      "id": 75,
+      "farm": "Ripped City Gardens ",
+      "hasInfo": true,
+      "thc": " 23.3% ",
+      "cbd": " 0.05%"
     },
     {
       "name": "G Dual Charger",
@@ -1455,12 +1486,17 @@ app.service('Products', function () {
       "strainInfo": {
         "slug": "ghost-og",
         "name": "Ghost OG",
-        "category": "Hybrid",
+        "category": " Hybrid ",
         "rating": 4.5,
         "ratingCount": 193,
         "symbol": "Gok",
         "starImage": "https://d3h17ltqi8v019.cloudfront.net/stars/4/240?color=fcc91d"
-      }
+      },
+      "id": 79,
+      "farm": "Green Bodhi ",
+      "hasInfo": true,
+      "thc": " 23.9% ",
+      "cbd": " 0.18%"
     },
     {
       "name": "Golden Xtrx Cartridge",
@@ -1523,12 +1559,17 @@ app.service('Products', function () {
       "strainInfo": {
         "slug": "gorilla-glue-4",
         "name": "Gorilla Glue #4",
-        "category": "Hybrid",
+        "category": " Hybrid ",
         "rating": 4.7,
         "ratingCount": 880,
         "symbol": "Gg4",
         "starImage": "https://d3h17ltqi8v019.cloudfront.net/stars/5/240?color=fcc91d"
-      }
+      },
+      "id": 82,
+      "farm": "Bravehearts Private Reserve ",
+      "hasInfo": true,
+      "thc": " 23.9% ",
+      "cbd": " 0.00%"
     },
     {
       "name": "Gorilla Glue #4 ",
@@ -1554,12 +1595,17 @@ app.service('Products', function () {
       "strainInfo": {
         "slug": "gorilla-glue-4",
         "name": "Gorilla Glue #4",
-        "category": "Hybrid",
+        "category": " Hybrid ",
         "rating": 4.7,
         "ratingCount": 880,
         "symbol": "Gg4",
         "starImage": "https://d3h17ltqi8v019.cloudfront.net/stars/5/240?color=fcc91d"
-      }
+      },
+      "id": 83,
+      "farm": "Green Bodhi ",
+      "hasInfo": true,
+      "thc": " 28.4% ",
+      "cbd": " 0.22%"
     },
     {
       "name": "Green Dragon Janga Juice",
@@ -1595,7 +1641,13 @@ app.service('Products', function () {
           "Unit": "One",
           "Price": 240
         }
-      ]
+      ],
+      "id": 85,
+      "farm": "Green Bodhi ",
+      "hasInfo": false,
+      "category": " Sativa ",
+      "thc": " 24.3% ",
+      "cbd": " 0.13%"
     },
     {
       "name": "Headband Queens Jelly",
@@ -1718,12 +1770,17 @@ app.service('Products', function () {
       "strainInfo": {
         "slug": "killer-queen",
         "name": "Killer Queen",
-        "category": "Hybrid",
+        "category": " Sativa Dominant Hybrid ",
         "rating": 4.3,
         "ratingCount": 79,
         "symbol": "Kq",
         "starImage": "https://d3h17ltqi8v019.cloudfront.net/stars/4/240?color=fcc91d"
-      }
+      },
+      "id": 92,
+      "farm": "Jasper Hill Farms ",
+      "hasInfo": true,
+      "thc": " 23.3% ",
+      "cbd": " 0.42%"
     },
     {
       "name": "Kimbo Kush",
@@ -1749,12 +1806,17 @@ app.service('Products', function () {
       "strainInfo": {
         "slug": "kimbo-kush",
         "name": "Kimbo Kush",
-        "category": "Hybrid",
+        "category": " Inidica Dominant Hybrid ",
         "rating": 4.7,
         "ratingCount": 36,
         "symbol": "Kim",
         "starImage": "https://d3h17ltqi8v019.cloudfront.net/stars/5/240?color=fcc91d"
-      }
+      },
+      "id": 93,
+      "farm": "sofresh farms ",
+      "hasInfo": true,
+      "thc": " 20.2% ",
+      "cbd": " 0.09% "
     },
     {
       "name": "King Size Ideal Rollies",
@@ -1812,7 +1874,13 @@ app.service('Products', function () {
           "Unit": "One",
           "Price": 220
         }
-      ]
+      ],
+      "id": 96,
+      "farm": "Liontree Farms ",
+      "hasInfo": false,
+      "category": " Indica Dominant Hybrid ",
+      "thc": " 22.5% ",
+      "cbd": " 0.10%"
     },
     {
       "name": "Large Cones",
@@ -1972,12 +2040,17 @@ app.service('Products', function () {
       "strainInfo": {
         "slug": "mob-boss",
         "name": "Mob Boss",
-        "category": "Hybrid",
+        "category": " Sativa Dominant Hybrid ",
         "rating": 4.4,
         "ratingCount": 88,
         "symbol": "Mbo",
         "starImage": "https://d3h17ltqi8v019.cloudfront.net/stars/4/240?color=fcc91d"
-      }
+      },
+      "id": 106,
+      "farm": "Geek Farms ",
+      "hasInfo": true,
+      "thc": " 20.4% ",
+      "cbd": " 0.05%"
     },
     {
       "name": "Mountain Sun Botanicals Sun Grown RSO",
@@ -2030,12 +2103,17 @@ app.service('Products', function () {
       "strainInfo": {
         "slug": "matanuska-thunder-fuck",
         "name": "Matanuska Thunder Fuck",
-        "category": "Sativa",
+        "category": " Sativa Dominant Hybrid ",
         "rating": 4.4,
         "ratingCount": 110,
         "symbol": "Mtf",
         "starImage": "https://d3h17ltqi8v019.cloudfront.net/stars/4/240?color=fcc91d"
-      }
+      },
+      "id": 109,
+      "farm": "Ideal Farms ",
+      "hasInfo": true,
+      "thc": " 19.5% ",
+      "cbd": " 0.07%"
     },
     {
       "name": "Mystery Machine OG",
@@ -2057,7 +2135,13 @@ app.service('Products', function () {
           "Unit": "One",
           "Price": 240
         }
-      ]
+      ],
+      "id": 110,
+      "farm": "Big Beard Farms ",
+      "hasInfo": false,
+      "category": " Indica Dominant Hybrid ",
+      "thc": " 28.0% ",
+      "cbd": " 0.08%"
     },
     {
       "name": "Mystic Roots Creations Organic CannaBody Butter",
@@ -2093,7 +2177,13 @@ app.service('Products', function () {
           "Unit": "One",
           "Price": 240
         }
-      ]
+      ],
+      "id": 112,
+      "farm": "Left Coast Farms ",
+      "hasInfo": false,
+      "category": " Indica Dominant Hybrid ",
+      "thc": " 24.8% ",
+      "cbd": " 0.06%"
     },
     {
       "name": "Nuken",
@@ -2115,7 +2205,13 @@ app.service('Products', function () {
           "Unit": "One",
           "Price": 260
         }
-      ]
+      ],
+      "id": 113,
+      "farm": "sofresh farms ",
+      "hasInfo": false,
+      "category": " Indica Dominant Hybrid ",
+      "thc": " 28.7% ",
+      "cbd": " 0.07% "
     },
     {
       "name": "Oregon's Finest Crew Neck Pullover Sweatshirt",
@@ -2287,12 +2383,17 @@ app.service('Products', function () {
       "strainInfo": {
         "slug": "platinum-kush",
         "name": "Platinum Kush",
-        "category": "Indica",
+        "category": " Indica ",
         "rating": 4.3,
         "ratingCount": 345,
         "symbol": "Plk",
         "starImage": "https://d3h17ltqi8v019.cloudfront.net/stars/4/240?color=fcc91d"
-      }
+      },
+      "id": 124,
+      "farm": "sofresh farms ",
+      "hasInfo": true,
+      "thc": " 24.9% ",
+      "cbd": " 0.06% "
     },
     {
       "name": "PNW Medi Mate Tincture",
@@ -2416,7 +2517,13 @@ app.service('Products', function () {
           "Unit": "One",
           "Price": 240
         }
-      ]
+      ],
+      "id": 132,
+      "farm": "Ripped City Gardens ",
+      "hasInfo": false,
+      "category": " Hybrid ",
+      "thc": " 29.9% ",
+      "cbd": " 0.08%"
     },
     {
       "name": "Raw Hemp Plastic Roller",
@@ -2452,7 +2559,13 @@ app.service('Products', function () {
           "Unit": "One",
           "Price": 240
         }
-      ]
+      ],
+      "id": 134,
+      "farm": "Big Beard Farms ",
+      "hasInfo": false,
+      "category": " Hybrid ",
+      "thc": " 26.2% ",
+      "cbd": " 0.07%"
     },
     {
       "name": "Reefer Rools | That Taffy ",
@@ -2596,12 +2709,17 @@ app.service('Products', function () {
       "strainInfo": {
         "slug": "sour-og",
         "name": "Sour OG",
-        "category": "Hybrid",
+        "category": " Hybrid ",
         "rating": 4.3,
         "ratingCount": 367,
         "symbol": "Sog",
         "starImage": "https://d3h17ltqi8v019.cloudfront.net/stars/4/240?color=fcc91d"
-      }
+      },
+      "id": 143,
+      "farm": "Ripped City Gardens ",
+      "hasInfo": true,
+      "thc": " 20.8% ",
+      "cbd": " 0.08%"
     },
     {
       "name": "Space Candy",
@@ -2627,12 +2745,17 @@ app.service('Products', function () {
       "strainInfo": {
         "slug": "space-candy",
         "name": "Space Candy",
-        "category": "Hybrid",
+        "category": " Sativa Dominant Hybrid ",
         "rating": 4.5,
         "ratingCount": 18,
         "symbol": "Spa",
         "starImage": "https://d3h17ltqi8v019.cloudfront.net/stars/4/240?color=fcc91d"
-      }
+      },
+      "id": 144,
+      "farm": "Ideal Farms ",
+      "hasInfo": true,
+      "thc": " 22.3%",
+      "cbd": " 0.05%"
     },
     {
       "name": "Starkiller OG",
@@ -2654,7 +2777,13 @@ app.service('Products', function () {
           "Unit": "One",
           "Price": 260
         }
-      ]
+      ],
+      "id": 145,
+      "farm": "Bravehearts Private Reserve ",
+      "hasInfo": false,
+      "category": " Indica Dominant Hybrid ",
+      "thc": " 26.8% ",
+      "cbd": " 0.00%"
     },
     {
       "name": "Synergy Skin Wrap",
@@ -2800,12 +2929,17 @@ app.service('Products', function () {
       "strainInfo": {
         "slug": "the-white",
         "name": "The White",
-        "category": "Hybrid",
+        "category": " Indica Dominant Hybrid ",
         "rating": 4.5,
         "ratingCount": 150,
         "symbol": "Twt",
         "starImage": "https://d3h17ltqi8v019.cloudfront.net/stars/4/240?color=fcc91d"
-      }
+      },
+      "id": 154,
+      "farm": "House of Concentrates ",
+      "hasInfo": true,
+      "thc": " 21.5% ",
+      "cbd": " 0.06%"
     },
     {
       "name": "Tj's Hypnos THC Infused Capsules 10 pk",
@@ -2845,12 +2979,17 @@ app.service('Products', function () {
       "strainInfo": {
         "slug": "true-og",
         "name": "True OG",
-        "category": "Indica",
+        "category": " Indica ",
         "rating": 4.4,
         "ratingCount": 199,
         "symbol": "Tru",
         "starImage": "https://d3h17ltqi8v019.cloudfront.net/stars/4/240?color=fcc91d"
-      }
+      },
+      "id": 156,
+      "farm": "Bravehearts Private Reserve ",
+      "hasInfo": true,
+      "thc": " 21.6% ",
+      "cbd": " 0.07%"
     },
     {
       "name": "Truly Pure Vape Cartridges",
@@ -2894,12 +3033,17 @@ app.service('Products', function () {
       "strainInfo": {
         "slug": "birthday-cake-kush",
         "name": "Birthday Cake Kush",
-        "category": "Hybrid",
+        "category": " Indica Dominant Hybrid ",
         "rating": 4.3,
         "ratingCount": 42,
         "symbol": "Bir",
         "starImage": "https://d3h17ltqi8v019.cloudfront.net/stars/4/240?color=fcc91d"
-      }
+      },
+      "id": 158,
+      "farm": "Liontree Farms ",
+      "hasInfo": true,
+      "thc": " 22.1% ",
+      "cbd": " 0.20%"
     }
   ]
   var products = [{
@@ -3098,10 +3242,15 @@ app.service('Products', function () {
 
   return {
     all: function () {
-      for (var i = 0; i < leaflyProducts.length; i++) {
-        leaflyProducts[i].id = i;
+      var defer = $q.defer();
+      function fetchLeafly () {
+        for (var i = 0; i < leaflyProducts.length; i++) {
+          leaflyProducts[i].id = i;
+        }
+        defer.resolve(leaflyProducts);
       }
-      return leaflyProducts;
+      fetchLeafly();
+      return defer.promise;
     },
     get: function (productId) {
       for (var i = 0; i < leaflyProducts.length; i++) {
@@ -3112,22 +3261,51 @@ app.service('Products', function () {
       return null;
     },
     getById: function (id) {
-      for (var i = 0; i < leaflyProducts.length; i++) {
-        if (leaflyProducts[i].id === id) {
-          var product = leaflyProducts[i];
-          return product;
-        }
+      var defer = $q.defer();
+      if (!id) {
+        defer.reject();
       }
-      return null;
+
+      findProductById(id, leaflyProducts, defer);
+
+      function findProductById(id, productList, q) {
+        var product;
+        for (var i = 0; i < productList.length; i++) {
+          if (parseInt(id) === i) {
+            product = productList[i];
+            q.resolve(product);
+          }
+        }
+        q.reject();
+      }
+
+      return defer.promise;
     },
     getByCate: function (cateId) {
-      var productCates = [];
-      for (var i = 0; i < leaflyProducts.length; i++) {
-        if (leaflyProducts[i].type === cateId) {
-          productCates.push(leaflyProducts[i]);
-        }
+      var defer = $q.defer();
+
+      if (!cateId){
+        defer.reject();
       }
-      return productCates;
+      var productCates = [];
+
+      findProductsByCate(cateId, leaflyProducts, defer);
+
+      function findProductsByCate(id, productList, q) {
+
+        for (var i = 0; i < productList.length; i++) {
+
+          if (productList[i].type === id) {
+            productList[i].id = i;
+            productCates.push(productList[i]);
+          }
+
+        }
+
+        q.resolve(productCates);
+      }
+
+      return defer.promise;
     }
   };
 });

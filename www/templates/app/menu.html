@@ -7,7 +7,7 @@
     </ion-header-bar>
     <ion-content>
         <ul class="cate-lv1">
-            <li class="item-background cate-lv1-item" ng-repeat="cate in cates" ui-sref="product_menu({ cateId: cate.id })"
+            <li class="item-background cate-lv1-item" ng-repeat="cate in cates" ui-sref="app.product_menu({ cateId: cate.id })"
             style="background: url({{cate.img}}) no-repeat; background-size: cover;">
                 <div class="item-wrapper">
                     <h2>{{cate.name}}</h2>

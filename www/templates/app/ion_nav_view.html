@@ -1,23 +1,24 @@
 <ion-side-menus enable-menu-with-back-views="false">
+
     <ion-side-menu-content drag-content="false">
-        <ion-nav-view name="menuAppContent" animation="slide-left-right"></ion-nav-view>
+        <ion-nav-view name="appContent" animation="slide-left-right"></ion-nav-view>
     </ion-side-menu-content>
 
     <ion-side-menu side="left">
         <ion-content>
             <div class="side-menu-logo">
-                <a class="logo" style="font-family: "Helvetica Neue Light", "Lucida Grande", "Calibri", "Arial", sans-serif">OF</a>
+                <a class="logo"><img src="img/logo_dark.png"/></a>
             </div>
             <ion-list class="sidebar list-no-border">
-                <ion-item menu-close class="item-icon-left" ui-sref="app.category">
+                <ion-item menu-close class="item-icon-left" ui-sref="app.menu">
                     <i class="icon ion-home"></i>
                     Home
                 </ion-item>
-                <ion-item menu-close class="item-icon-left" ui-sref="app.category">
+                <ion-item menu-close class="item-icon-left" ui-sref="app.menu">
                     <i class="icon ion-clipboard"></i>
                     Menu
                 </ion-item>
-                <ion-item menu-close class="item-icon-left" ui-sref="app.category">
+                <ion-item menu-close class="item-icon-left" ui-sref="app.favorites">
                     <i class="icon ion-star"></i>
                     Favorites
                 </ion-item>

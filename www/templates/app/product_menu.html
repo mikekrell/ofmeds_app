@@ -1,4 +1,4 @@
-<ion-view view-title="{{cate.name}}">
+<ion-view view-title="{{cate.name}}" ng-controller="MenuCtrl">
     <ion-header-bar align-title="center" class="bar-light">
         <ion-nav-bar align-title="center">
             <ion-nav-buttons>
@@ -8,12 +8,12 @@
     </ion-header-bar>
     <ion-content>
         <div class="cate-lv2">
-            <div class="card cate-lv2-item" ng-repeat="product in productByCate" ng-controller="AppCtrl">
-                <div class="item item-thumbnail-left item-text-wrap" ng-click="productDetail({{product.id}})">
+            <div class="card cate-lv2-item" ng-repeat="product in productByCate | filter : product.farm" ui-sref="app.product_detail({ productId : product.id})">
+                <div class="item item-thumbnail-left item-text-wrap">
                     <img ng-src={{product.imagePath}}>
 
-                    <h2>{{product.name}} {{product.id}}</h2>
-
+                    <h2>{{product.name}}</h2>
+                    <p>{{product.farm}}</p>
                     <div class="price">${{product.pricing[0].Price}} - ${{product.pricing[product.pricing.length-1].Price}}</div>
                     <div class="like"><i class="ion-heart"></i> {{product.like}}</div>
                 </div>
