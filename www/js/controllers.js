@@ -1,7 +1,8 @@
 angular.module('ofmeds_app.controllers', [])
 
-    .controller('AppCtrl', function ($scope, $ionicPlatform, $stateParams, Cates, Products, Carts, PushWoosh) {
 
+
+    .controller('AppCtrl', function ($scope, $ionicPlatform, Cates, Products, Carts) {
         $scope.cates = Cates.all();
         $scope.carts = Carts.all();
 

@@ -2,22 +2,65 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c8d8acb-c5bd-4af4-b8d5-9a10cb637b84" name="Default" comment="First Commit">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/www/img/product/TANGILOPE-SoFresh(eCommerce).png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/img/product/BLACKBETTY-SoFreshFarms-macro.png" afterPath="$PROJECT_DIR$/www/img/product/BLACKBETTY-SoFreshFarms-macro.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/img/product/CK5TYRABANKS-macro.png" afterPath="$PROJECT_DIR$/www/img/product/CK5TYRABANKS-macro.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/img/product/GIRLSCOUTCOOKIES-SonsOfAgronomy-macro.png" afterPath="$PROJECT_DIR$/www/img/product/GIRLSCOUTCOOKIES-SonsOfAgronomy-macro.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/img/product/GRANDHUSTLE-HighsmanFarms-macro.png" afterPath="$PROJECT_DIR$/www/img/product/GRANDHUSTLE-HighsmanFarms-macro.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/img/product/NUBIA-BraveHeartsPrivateReserve-macro.png" afterPath="$PROJECT_DIR$/www/img/product/NUBIA-BraveHeartsPrivateReserve-macro.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/img/product/PEACHESNCREAM-SoFreshFarms-macro.png" afterPath="$PROJECT_DIR$/www/img/product/PEACHESNCREAM-SoFreshFarms-macro.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/img/product/SWEETTOOTH-SoFreshFarms-macro.png" afterPath="$PROJECT_DIR$/www/img/product/SWEETTOOTH-SoFreshFarms-macro.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/img/product/TANGILOPE-SoFresh-macro.png" afterPath="$PROJECT_DIR$/www/img/product/TANGILOPE-SoFresh-macro.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/img/product/TRUEOG-BraveHeartsPrivateReserve-macro.png" afterPath="$PROJECT_DIR$/www/img/product/TRUEOG-BraveHeartsPrivateReserve-macro.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/angular-animate/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/angular-animate/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/angular-animate/angular-animate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/angular-animate/angular-animate.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/angular-animate/angular-animate.min.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/angular-animate/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/angular-animate/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/angular-animate/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/angular-sanitize/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/angular-sanitize/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/angular-sanitize/angular-sanitize.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/angular-sanitize/angular-sanitize.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/angular-sanitize/angular-sanitize.min.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/angular-sanitize/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/angular-sanitize/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/angular-sanitize/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/angular-ui-router/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/angular-ui-router/CHANGELOG.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/angular-ui-router/CONTRIBUTING.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/angular-ui-router/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/angular-ui-router/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/angular-ui-router/api/angular-ui-router.d.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/angular-ui-router/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/angular-ui-router/release/angular-ui-router.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/angular-ui-router/release/angular-ui-router.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/angular-ui-router/src/common.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/angular-ui-router/src/resolve.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/angular-ui-router/src/state.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/angular-ui-router/src/stateDirectives.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/angular-ui-router/src/stateFilters.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/angular-ui-router/src/templateFactory.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/angular-ui-router/src/urlMatcherFactory.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/angular-ui-router/src/urlRouter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/angular-ui-router/src/view.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/angular-ui-router/src/viewDirective.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/lib/angular-ui-router/src/viewScroll.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/templates/app/instagram.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/angular/angular.min.js.gzip" afterPath="$PROJECT_DIR$/www/lib/angular/angular.min.js.gzip" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.xml" afterPath="$PROJECT_DIR$/config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hooks/after_prepare/010_add_platform_class.js" afterPath="$PROJECT_DIR$/hooks/after_prepare/010_add_platform_class.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/style.css" afterPath="$PROJECT_DIR$/www/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/index.html" afterPath="$PROJECT_DIR$/www/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/PushwooshAndroid.js" afterPath="$PROJECT_DIR$/www/js/PushwooshAndroid.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/PushwooshWP.js" afterPath="$PROJECT_DIR$/www/js/PushwooshWP.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/PushwooshiOS.js" afterPath="$PROJECT_DIR$/www/js/PushwooshiOS.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/app.js" afterPath="$PROJECT_DIR$/www/js/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/controllers.js" afterPath="$PROJECT_DIR$/www/js/controllers.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/services.js" afterPath="$PROJECT_DIR$/www/js/services.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/angular/.bower.json" afterPath="$PROJECT_DIR$/www/lib/angular/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/angular/angular.js" afterPath="$PROJECT_DIR$/www/lib/angular/angular.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/angular/angular.min.js" afterPath="$PROJECT_DIR$/www/lib/angular/angular.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/angular/angular.min.js.map" afterPath="$PROJECT_DIR$/www/lib/angular/angular.min.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/angular/bower.json" afterPath="$PROJECT_DIR$/www/lib/angular/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/lib/angular/package.json" afterPath="$PROJECT_DIR$/www/lib/angular/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/app/ion_nav_view.html" afterPath="$PROJECT_DIR$/www/templates/app/ion_nav_view.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/app/product_detail.html" afterPath="$PROJECT_DIR$/www/templates/app/product_detail.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/app/product_menu.html" afterPath="$PROJECT_DIR$/www/templates/app/product_menu.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/app/product_review.html" afterPath="$PROJECT_DIR$/www/templates/app/product_review.html" />
     </list>
     <ignored path="ofmeds_app.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,11 +81,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="68" column="32" selection-start-line="68" selection-start-column="27" selection-end-line="68" selection-end-column="37" />
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -81,33 +124,9 @@
       <file leaf-file-name="services.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/js/services.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.5945946">
-              <caret line="2374" column="5" selection-start-line="2374" selection-start-column="5" selection-end-line="2374" selection-end-column="5" />
-              <folding>
-                <element signature="e#67810#67996#0" expanded="false" />
-                <element signature="e#67998#68168#0" expanded="false" />
-                <element signature="e#68170#68354#0" expanded="false" />
-                <element signature="e#68356#68555#0" expanded="false" />
-                <element signature="e#68557#68729#0" expanded="false" />
-                <element signature="e#68731#68910#0" expanded="false" />
-                <element signature="e#68912#69102#0" expanded="false" />
-                <element signature="e#69104#69275#0" expanded="false" />
-                <element signature="e#69277#69446#0" expanded="false" />
-                <element signature="e#69448#69644#0" expanded="false" />
-                <element signature="e#69646#69816#0" expanded="false" />
-                <element signature="e#69818#69988#0" expanded="false" />
-                <element signature="e#69990#70156#0" expanded="false" />
-                <element signature="e#70158#70324#0" expanded="false" />
-                <element signature="e#70326#70490#0" expanded="false" />
-                <element signature="e#70492#70656#0" expanded="false" />
-                <element signature="e#70658#70825#0" expanded="false" />
-                <element signature="e#70827#70999#0" expanded="false" />
-                <element signature="e#71001#71173#0" expanded="false" />
-                <element signature="e#71175#71343#0" expanded="false" />
-                <element signature="e#71345#71516#0" expanded="false" />
-                <element signature="e#71518#71710#0" expanded="false" />
-                <element signature="e#71888#72060#0" expanded="false" />
-              </folding>
+            <state vertical-scroll-proportion="156.97298">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -115,28 +134,18 @@
       <file leaf-file-name="product_menu.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/templates/app/product_menu.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.548387">
-              <caret line="10" column="136" selection-start-line="10" selection-start-column="81" selection-end-line="10" selection-end-column="136" />
+            <state vertical-scroll-proportion="-10.645162">
+              <caret line="15" column="54" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="menu.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/templates/app/menu.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.7096774">
-              <caret line="1" column="58" selection-start-line="1" selection-start-column="58" selection-end-line="1" selection-end-column="58" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="controllers.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="controllers.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/js/controllers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.2">
-              <caret line="41" column="161" selection-start-line="41" selection-start-column="161" selection-end-line="41" selection-end-column="161" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="4" column="86" selection-start-line="4" selection-start-column="86" selection-end-line="4" selection-end-column="86" />
               <folding />
             </state>
           </provider>
@@ -145,8 +154,8 @@
       <file leaf-file-name="product_detail.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/templates/app/product_detail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.1764705">
-              <caret line="56" column="40" selection-start-line="56" selection-start-column="40" selection-end-line="56" selection-end-column="40" />
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -155,8 +164,8 @@
       <file leaf-file-name="ion_nav_view.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/templates/app/ion_nav_view.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.387097">
-              <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+            <state vertical-scroll-proportion="12.16129">
+              <caret line="9" column="66" selection-start-line="9" selection-start-column="66" selection-end-line="9" selection-end-column="66" />
               <folding />
             </state>
           </provider>
@@ -194,14 +203,14 @@
         <option value="$PROJECT_DIR$/www/templates/app/category.html" />
         <option value="$PROJECT_DIR$/www/templates/app/menu.html" />
         <option value="$PROJECT_DIR$/www/js/leafly.json" />
-        <option value="$PROJECT_DIR$/www/templates/app/ion_nav_view.html" />
         <option value="$PROJECT_DIR$/www/templates/app/profile.html" />
-        <option value="$PROJECT_DIR$/www/js/app.js" />
-        <option value="$PROJECT_DIR$/www/templates/app/product_menu.html" />
-        <option value="$PROJECT_DIR$/www/templates/app/product_detail.html" />
         <option value="$PROJECT_DIR$/www/templates/app/product_review.html" />
-        <option value="$PROJECT_DIR$/www/js/services.js" />
         <option value="$PROJECT_DIR$/www/js/controllers.js" />
+        <option value="$PROJECT_DIR$/www/templates/app/product_menu.html" />
+        <option value="$PROJECT_DIR$/www/templates/app/ion_nav_view.html" />
+        <option value="$PROJECT_DIR$/www/templates/app/product_detail.html" />
+        <option value="$PROJECT_DIR$/www/js/services.js" />
+        <option value="$PROJECT_DIR$/www/js/app.js" />
       </list>
     </option>
   </component>
@@ -429,11 +438,11 @@
     <editor active="false" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44436148" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.44436148" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2994924" sideWeight="0.118745334" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2994924" sideWeight="0.43017176" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2994924" sideWeight="0.8812547" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2994924" sideWeight="0.5698282" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="true" anchor="bottom" auto_hide="true" internal_type="SLIDING" type="SLIDING" visible="true" show_stripe_button="true" weight="0.3147208" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" x="1366" y="-2" width="675" height="760" />
@@ -469,20 +478,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/www/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.io-config.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="29" selection-start-line="0" selection-start-column="29" selection-end-line="0" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/templates/intro.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -517,31 +512,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#67810#67996#0" expanded="false" />
-            <element signature="e#67998#68168#0" expanded="false" />
-            <element signature="e#68170#68354#0" expanded="false" />
-            <element signature="e#68356#68555#0" expanded="false" />
-            <element signature="e#68557#68729#0" expanded="false" />
-            <element signature="e#68731#68910#0" expanded="false" />
-            <element signature="e#68912#69102#0" expanded="false" />
-            <element signature="e#69104#69275#0" expanded="false" />
-            <element signature="e#69277#69446#0" expanded="false" />
-            <element signature="e#69448#69644#0" expanded="false" />
-            <element signature="e#69646#69816#0" expanded="false" />
-            <element signature="e#69818#69988#0" expanded="false" />
-            <element signature="e#69990#70156#0" expanded="false" />
-            <element signature="e#70158#70324#0" expanded="false" />
-            <element signature="e#70326#70490#0" expanded="false" />
-            <element signature="e#70492#70656#0" expanded="false" />
-            <element signature="e#70658#70825#0" expanded="false" />
-            <element signature="e#70827#70999#0" expanded="false" />
-            <element signature="e#71001#71173#0" expanded="false" />
-            <element signature="e#71175#71343#0" expanded="false" />
-            <element signature="e#71345#71516#0" expanded="false" />
-            <element signature="e#71518#71710#0" expanded="false" />
-            <element signature="e#71888#72060#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -624,31 +595,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="180" column="14" selection-start-line="180" selection-start-column="7" selection-end-line="180" selection-end-column="14" />
-          <folding>
-            <element signature="e#67810#67996#0" expanded="false" />
-            <element signature="e#67998#68168#0" expanded="false" />
-            <element signature="e#68170#68354#0" expanded="false" />
-            <element signature="e#68356#68555#0" expanded="false" />
-            <element signature="e#68557#68729#0" expanded="false" />
-            <element signature="e#68731#68910#0" expanded="false" />
-            <element signature="e#68912#69102#0" expanded="false" />
-            <element signature="e#69104#69275#0" expanded="false" />
-            <element signature="e#69277#69446#0" expanded="false" />
-            <element signature="e#69448#69644#0" expanded="false" />
-            <element signature="e#69646#69816#0" expanded="false" />
-            <element signature="e#69818#69988#0" expanded="false" />
-            <element signature="e#69990#70156#0" expanded="false" />
-            <element signature="e#70158#70324#0" expanded="false" />
-            <element signature="e#70326#70490#0" expanded="false" />
-            <element signature="e#70492#70656#0" expanded="false" />
-            <element signature="e#70658#70825#0" expanded="false" />
-            <element signature="e#70827#70999#0" expanded="false" />
-            <element signature="e#71001#71173#0" expanded="false" />
-            <element signature="e#71175#71343#0" expanded="false" />
-            <element signature="e#71345#71516#0" expanded="false" />
-            <element signature="e#71518#71710#0" expanded="false" />
-            <element signature="e#71888#72060#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -831,22 +778,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="68" column="32" selection-start-line="68" selection-start-column="27" selection-end-line="68" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/app/ion_nav_view.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.387097">
-          <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/templates/app/settings.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -863,22 +794,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/app/product_detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.1764705">
-          <caret line="56" column="40" selection-start-line="56" selection-start-column="40" selection-end-line="56" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/app/product_menu.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.548387">
-          <caret line="10" column="136" selection-start-line="10" selection-start-column="81" selection-end-line="10" selection-end-column="136" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/templates/app/product_review.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.677419">
@@ -887,42 +802,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/services.js">
+    <entry file="file://$PROJECT_DIR$/www/js/controllers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.5945946">
-          <caret line="2374" column="5" selection-start-line="2374" selection-start-column="5" selection-end-line="2374" selection-end-column="5" />
-          <folding>
-            <element signature="e#67810#67996#0" expanded="false" />
-            <element signature="e#67998#68168#0" expanded="false" />
-            <element signature="e#68170#68354#0" expanded="false" />
-            <element signature="e#68356#68555#0" expanded="false" />
-            <element signature="e#68557#68729#0" expanded="false" />
-            <element signature="e#68731#68910#0" expanded="false" />
-            <element signature="e#68912#69102#0" expanded="false" />
-            <element signature="e#69104#69275#0" expanded="false" />
-            <element signature="e#69277#69446#0" expanded="false" />
-            <element signature="e#69448#69644#0" expanded="false" />
-            <element signature="e#69646#69816#0" expanded="false" />
-            <element signature="e#69818#69988#0" expanded="false" />
-            <element signature="e#69990#70156#0" expanded="false" />
-            <element signature="e#70158#70324#0" expanded="false" />
-            <element signature="e#70326#70490#0" expanded="false" />
-            <element signature="e#70492#70656#0" expanded="false" />
-            <element signature="e#70658#70825#0" expanded="false" />
-            <element signature="e#70827#70999#0" expanded="false" />
-            <element signature="e#71001#71173#0" expanded="false" />
-            <element signature="e#71175#71343#0" expanded="false" />
-            <element signature="e#71345#71516#0" expanded="false" />
-            <element signature="e#71518#71710#0" expanded="false" />
-            <element signature="e#71888#72060#0" expanded="false" />
-          </folding>
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="86" selection-start-line="4" selection-start-column="86" selection-end-line="4" selection-end-column="86" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/controllers.js">
+    <entry file="file://$PROJECT_DIR$/www/templates/app/product_menu.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.2">
-          <caret line="41" column="161" selection-start-line="41" selection-start-column="161" selection-end-line="41" selection-end-column="161" />
+        <state vertical-scroll-proportion="-10.645162">
+          <caret line="15" column="54" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/app/product_detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/app/ion_nav_view.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="12.16129">
+          <caret line="9" column="66" selection-start-line="9" selection-start-column="66" selection-end-line="9" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/services.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="156.97298">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
