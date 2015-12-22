@@ -548,7 +548,8 @@ app.service('Products', function ($q) {
       "name": "Blackwater OG",
       "description": "Ripped City Gardens | Indica | THC: 27.2% |CBD: 0.09%",
       "addedOn": "/Date(1442546115087+0000)/",
-      "imagePath": "https://d3h17ltqi8v019.cloudfront.net/indica/blackwater/badge?width=100&padding=false",
+      "imagePath": "img/product/BLACKBETTY-SoFreshFarms.png",
+      "images" : ["img/product/BLACKBETTY-SoFreshFarms-macro.png", "img/product/BLACKBETTY-SoFreshFarms-thumb.png"],
       "type": "Flower",
       "preOrderEnabled": false,
       "pricing": [
@@ -598,7 +599,8 @@ app.service('Products', function ($q) {
       "name": "Blue Dream",
       "description": "House of Concentrates | Sativa Dominant Hybrid | THC: 20.5% | CBD: 0.01%",
       "addedOn": "/Date(1448162672071+0000)/",
-      "imagePath": "https://d3h17ltqi8v019.cloudfront.net/hybrid/blue-dream/badge?width=100&padding=false",
+      "imagePath": "img/product/GIRLSCOUTCOOKIES-SonsOfAgronomy.png",
+      "images" : ["img/product/GIRLSCOUTCOOKIES-SonsOfAgronomy-macro.png", "img/product/GIRLSCOUTCOOKIES-SonsOfAgronomy-thumb.png"],
       "type": "Flower",
       "preOrderEnabled": false,
       "pricing": [
@@ -963,7 +965,8 @@ app.service('Products', function ($q) {
       "name": "Durban Poison",
       "description": "Humankind | Sativa | THC: 20.6% | CBD: 0.09%",
       "addedOn": "/Date(1447002942230+0000)/",
-      "imagePath": "https://d3h17ltqi8v019.cloudfront.net/sativa/durban-poison/badge?width=100&padding=false",
+      "imagePath": "img/product/GRANDHUSTLE-HighsmanFarms.png",
+      "images" : ["img/product/GRANDHUSTLE-HighsmanFarms-macro.png", "img/product/GRANDHUSTLE-HighsmanFarms-thumb.png"],
       "type": "Flower",
       "preOrderEnabled": false,
       "pricing": [
@@ -999,7 +1002,8 @@ app.service('Products', function ($q) {
       "name": "Durban Poison",
       "description": "Sofresh Farms | Sativa | THC: 25.3% | CBD: 0.10% | Clean Green Certified",
       "addedOn": "/Date(1447278054415+0000)/",
-      "imagePath": "https://d3h17ltqi8v019.cloudfront.net/sativa/durban-poison/badge?width=100&padding=false",
+      "imagePath": "img/product/PEACHESNCREAM-SoFreshFarms.png",
+      "images" : ["img/product/PEACHESNCREAM-SoFreshFarms-macro.png", "img/product/PEACHESNCREAM-SoFreshFarms-thumb.png"],
       "type": "Flower",
       "preOrderEnabled": false,
       "pricing": [
@@ -1388,7 +1392,8 @@ app.service('Products', function ($q) {
       "name": "Fruity Pebbles",
       "description": "Ripped City Gardens | Hybrid | THC: 23.3% | CBD: 0.05%",
       "addedOn": "/Date(1442546426345+0000)/",
-      "imagePath": "https://d3h17ltqi8v019.cloudfront.net/hybrid/fruity-pebbles/badge?width=100&padding=false",
+      "imagePath": "img/product/SWEETTOOTH-SoFreshFarms.png",
+      "images" : ["img/product/SWEETTOOTH-SoFreshFarms-macro.png", "img/product/SWEETTOOTH-SoFreshFarms-thumb.png"],
       "type": "Flower",
       "preOrderEnabled": false,
       "pricing": [
@@ -1466,7 +1471,8 @@ app.service('Products', function ($q) {
       "name": "Ghost OG",
       "description": "Green Bodhi | Hybrid | THC: 23.9% | CBD: 0.18%",
       "addedOn": "/Date(1448656440449+0000)/",
-      "imagePath": "https://d3h17ltqi8v019.cloudfront.net/hybrid/ghost-og/badge?width=100&padding=false",
+      "imagePath": "img/product/TANGILOPE-SoFresh.png",
+      "images" : ["img/product/TANGILOPE-SoFresh-macro.png", "img/product/TANGILOPE-SoFresh-thumb.png"],
       "type": "Flower",
       "preOrderEnabled": false,
       "pricing": [
@@ -1536,78 +1542,6 @@ app.service('Products', function ($q) {
       ]
     },
     {
-      "name": "Gorilla Glue #4",
-      "description": "Bravehearts Private Reserve | Hybrid | THC: 23.9% | CBD: 0.00%",
-      "addedOn": "/Date(1448501475810+0000)/",
-      "imagePath": "https://d3h17ltqi8v019.cloudfront.net/hybrid/gorilla-glue-4/badge?width=100&padding=false",
-      "type": "Flower",
-      "preOrderEnabled": false,
-      "pricing": [
-        {
-          "Unit": "Gram",
-          "Price": 16
-        },
-        {
-          "Unit": "Half",
-          "Price": 135
-        },
-        {
-          "Unit": "One",
-          "Price": 260
-        }
-      ],
-      "strainInfo": {
-        "slug": "gorilla-glue-4",
-        "name": "Gorilla Glue #4",
-        "category": " Hybrid ",
-        "rating": 4.7,
-        "ratingCount": 880,
-        "symbol": "Gg4",
-        "starImage": "https://d3h17ltqi8v019.cloudfront.net/stars/5/240?color=fcc91d"
-      },
-      "id": 82,
-      "farm": "Bravehearts Private Reserve ",
-      "hasInfo": true,
-      "thc": " 23.9% ",
-      "cbd": " 0.00%"
-    },
-    {
-      "name": "Gorilla Glue #4 ",
-      "description": "Green Bodhi | Hybrid | THC: 28.4% | CBD: 0.22%",
-      "addedOn": "/Date(1448656560818+0000)/",
-      "imagePath": "https://d3h17ltqi8v019.cloudfront.net/hybrid/gorilla-glue-4/badge?width=100&padding=false",
-      "type": "Flower",
-      "preOrderEnabled": false,
-      "pricing": [
-        {
-          "Unit": "Gram",
-          "Price": 14
-        },
-        {
-          "Unit": "Half",
-          "Price": 125
-        },
-        {
-          "Unit": "One",
-          "Price": 240
-        }
-      ],
-      "strainInfo": {
-        "slug": "gorilla-glue-4",
-        "name": "Gorilla Glue #4",
-        "category": " Hybrid ",
-        "rating": 4.7,
-        "ratingCount": 880,
-        "symbol": "Gg4",
-        "starImage": "https://d3h17ltqi8v019.cloudfront.net/stars/5/240?color=fcc91d"
-      },
-      "id": 83,
-      "farm": "Green Bodhi ",
-      "hasInfo": true,
-      "thc": " 28.4% ",
-      "cbd": " 0.22%"
-    },
-    {
       "name": "Green Dragon Janga Juice",
       "description": "Med with Love Janga Juice\n145mg THC\n14mg CBD",
       "addedOn": "/Date(1429044424122+0000)/",
@@ -1620,34 +1554,6 @@ app.service('Products', function ($q) {
           "Price": 15
         }
       ]
-    },
-    {
-      "name": "Hazy Train",
-      "description": "Green Bodhi | Sativa | THC: 24.3% | CBD: 0.13%",
-      "addedOn": "/Date(1448651041510+0000)/",
-      "imagePath": "",
-      "type": "Flower",
-      "preOrderEnabled": false,
-      "pricing": [
-        {
-          "Unit": "Gram",
-          "Price": 14
-        },
-        {
-          "Unit": "Half",
-          "Price": 125
-        },
-        {
-          "Unit": "One",
-          "Price": 240
-        }
-      ],
-      "id": 85,
-      "farm": "Green Bodhi ",
-      "hasInfo": false,
-      "category": " Sativa ",
-      "thc": " 24.3% ",
-      "cbd": " 0.13%"
     },
     {
       "name": "Headband Queens Jelly",
@@ -1747,78 +1653,6 @@ app.service('Products', function ($q) {
       "pricing": []
     },
     {
-      "name": "Killer Queen",
-      "description": "Jasper Hill Farms | Sativa Dominant Hybrid | THC: 23.3% | CBD: 0.42%",
-      "addedOn": "/Date(1443381701928+0000)/",
-      "imagePath": "https://d3h17ltqi8v019.cloudfront.net/hybrid/killer-queen/badge?width=100&padding=false",
-      "type": "Flower",
-      "preOrderEnabled": false,
-      "pricing": [
-        {
-          "Unit": "Gram",
-          "Price": 14
-        },
-        {
-          "Unit": "Half",
-          "Price": 125
-        },
-        {
-          "Unit": "One",
-          "Price": 240
-        }
-      ],
-      "strainInfo": {
-        "slug": "killer-queen",
-        "name": "Killer Queen",
-        "category": " Sativa Dominant Hybrid ",
-        "rating": 4.3,
-        "ratingCount": 79,
-        "symbol": "Kq",
-        "starImage": "https://d3h17ltqi8v019.cloudfront.net/stars/4/240?color=fcc91d"
-      },
-      "id": 92,
-      "farm": "Jasper Hill Farms ",
-      "hasInfo": true,
-      "thc": " 23.3% ",
-      "cbd": " 0.42%"
-    },
-    {
-      "name": "Kimbo Kush",
-      "description": "sofresh farms | Inidica Dominant Hybrid | THC: 20.2% | CBD: 0.09% | Clean Green Certified",
-      "addedOn": "/Date(1447542451536+0000)/",
-      "imagePath": "https://d3h17ltqi8v019.cloudfront.net/hybrid/kimbo-kush/badge?width=100&padding=false",
-      "type": "Flower",
-      "preOrderEnabled": false,
-      "pricing": [
-        {
-          "Unit": "Gram",
-          "Price": 14
-        },
-        {
-          "Unit": "Half",
-          "Price": 125
-        },
-        {
-          "Unit": "One",
-          "Price": 240
-        }
-      ],
-      "strainInfo": {
-        "slug": "kimbo-kush",
-        "name": "Kimbo Kush",
-        "category": " Inidica Dominant Hybrid ",
-        "rating": 4.7,
-        "ratingCount": 36,
-        "symbol": "Kim",
-        "starImage": "https://d3h17ltqi8v019.cloudfront.net/stars/5/240?color=fcc91d"
-      },
-      "id": 93,
-      "farm": "sofresh farms ",
-      "hasInfo": true,
-      "thc": " 20.2% ",
-      "cbd": " 0.09% "
-    },
-    {
       "name": "King Size Ideal Rollies",
       "description": "Kings Size Rollies- 2 pack ",
       "addedOn": "/Date(1448142698627+0000)/",
@@ -1831,56 +1665,6 @@ app.service('Products', function ($q) {
           "Price": 20
         }
       ]
-    },
-    {
-      "name": "Kings OG",
-      "description": "NW Natural Grass | Indica | THC: 22.1% | CBD: <0.00%",
-      "addedOn": "/Date(1444152997692+0000)/",
-      "imagePath": "",
-      "type": "Flower",
-      "preOrderEnabled": false,
-      "pricing": [
-        {
-          "Unit": "Gram",
-          "Price": 14
-        },
-        {
-          "Unit": "Half",
-          "Price": 125
-        },
-        {
-          "Unit": "One",
-          "Price": 240
-        }
-      ]
-    },
-    {
-      "name": "Koala",
-      "description": "Liontree Farms | Indica Dominant Hybrid | THC: 22.5% | CBD: 0.10%",
-      "addedOn": "/Date(1447181115048+0000)/",
-      "imagePath": "",
-      "type": "Flower",
-      "preOrderEnabled": false,
-      "pricing": [
-        {
-          "Unit": "Gram",
-          "Price": 12
-        },
-        {
-          "Unit": "Half",
-          "Price": 115
-        },
-        {
-          "Unit": "One",
-          "Price": 220
-        }
-      ],
-      "id": 96,
-      "farm": "Liontree Farms ",
-      "hasInfo": false,
-      "category": " Indica Dominant Hybrid ",
-      "thc": " 22.5% ",
-      "cbd": " 0.10%"
     },
     {
       "name": "Large Cones",
@@ -2017,42 +1801,6 @@ app.service('Products', function ($q) {
       ]
     },
     {
-      "name": "Mob Boss",
-      "description": "Geek Farms | Sativa Dominant Hybrid | THC: 20.4% | CBD: 0.05%",
-      "addedOn": "/Date(1444153562624+0000)/",
-      "imagePath": "https://d3h17ltqi8v019.cloudfront.net/hybrid/mob-boss/badge?width=100&padding=false",
-      "type": "Flower",
-      "preOrderEnabled": false,
-      "pricing": [
-        {
-          "Unit": "Gram",
-          "Price": 12
-        },
-        {
-          "Unit": "Half",
-          "Price": 115
-        },
-        {
-          "Unit": "One",
-          "Price": 220
-        }
-      ],
-      "strainInfo": {
-        "slug": "mob-boss",
-        "name": "Mob Boss",
-        "category": " Sativa Dominant Hybrid ",
-        "rating": 4.4,
-        "ratingCount": 88,
-        "symbol": "Mbo",
-        "starImage": "https://d3h17ltqi8v019.cloudfront.net/stars/4/240?color=fcc91d"
-      },
-      "id": 106,
-      "farm": "Geek Farms ",
-      "hasInfo": true,
-      "thc": " 20.4% ",
-      "cbd": " 0.05%"
-    },
-    {
       "name": "Mountain Sun Botanicals Sun Grown RSO",
       "addedOn": "/Date(1439393807932+0000)/",
       "imagePath": "",
@@ -2080,70 +1828,6 @@ app.service('Products', function ($q) {
       ]
     },
     {
-      "name": "MTF",
-      "description": "Ideal Farms | Sativa Dominant Hybrid | THC: 19.5% | CBD: 0.07%",
-      "addedOn": "/Date(1445826911306+0000)/",
-      "imagePath": "https://d3h17ltqi8v019.cloudfront.net/sativa/matanuska-thunder-fuck/badge?width=100&padding=false",
-      "type": "Flower",
-      "preOrderEnabled": false,
-      "pricing": [
-        {
-          "Unit": "Gram",
-          "Price": 12
-        },
-        {
-          "Unit": "Half",
-          "Price": 115
-        },
-        {
-          "Unit": "One",
-          "Price": 220
-        }
-      ],
-      "strainInfo": {
-        "slug": "matanuska-thunder-fuck",
-        "name": "Matanuska Thunder Fuck",
-        "category": " Sativa Dominant Hybrid ",
-        "rating": 4.4,
-        "ratingCount": 110,
-        "symbol": "Mtf",
-        "starImage": "https://d3h17ltqi8v019.cloudfront.net/stars/4/240?color=fcc91d"
-      },
-      "id": 109,
-      "farm": "Ideal Farms ",
-      "hasInfo": true,
-      "thc": " 19.5% ",
-      "cbd": " 0.07%"
-    },
-    {
-      "name": "Mystery Machine OG",
-      "description": "Big Beard Farms | Indica Dominant Hybrid | THC: 28.0% | CBD: 0.08%",
-      "addedOn": "/Date(1444589880450+0000)/",
-      "imagePath": "",
-      "type": "Flower",
-      "preOrderEnabled": false,
-      "pricing": [
-        {
-          "Unit": "Gram",
-          "Price": 14
-        },
-        {
-          "Unit": "Half",
-          "Price": 125
-        },
-        {
-          "Unit": "One",
-          "Price": 240
-        }
-      ],
-      "id": 110,
-      "farm": "Big Beard Farms ",
-      "hasInfo": false,
-      "category": " Indica Dominant Hybrid ",
-      "thc": " 28.0% ",
-      "cbd": " 0.08%"
-    },
-    {
       "name": "Mystic Roots Creations Organic CannaBody Butter",
       "description": "Organic CannaBody Butter\nCertified Organic Ingredients: Cannabis, Cinnamon Leaf Oil, Cinnamon Bark OIl, Myrrh Essential Oil, Coconut Oil, Jojoba Oil, Emu Oil, Shea Butter, Cacao butter, Mango Butter, Comfrey Oil, Calendula Oil, Plantain Oil, Neem Oil, Beeswax, Aloe Vera, Rosemary Essential Oil, Lavender Essential Oil, Rosemary Antioxidant\n\nTHC: 9.3 mg/g\nCBD: 0.8mg/g\nCBD 0.4 mg/g\nCBC 0.3 mg/g\n\n2 oz jar",
       "addedOn": "/Date(1441321877523+0000)/",
@@ -2156,62 +1840,6 @@ app.service('Products', function ($q) {
           "Price": 55
         }
       ]
-    },
-    {
-      "name": "Nightmare OG",
-      "description": "Left Coast Farms | Indica Dominant Hybrid | THC: 24.8% | CBD: 0.06%",
-      "addedOn": "/Date(1445289544925+0000)/",
-      "imagePath": "",
-      "type": "Flower",
-      "preOrderEnabled": false,
-      "pricing": [
-        {
-          "Unit": "Gram",
-          "Price": 14
-        },
-        {
-          "Unit": "Half",
-          "Price": 125
-        },
-        {
-          "Unit": "One",
-          "Price": 240
-        }
-      ],
-      "id": 112,
-      "farm": "Left Coast Farms ",
-      "hasInfo": false,
-      "category": " Indica Dominant Hybrid ",
-      "thc": " 24.8% ",
-      "cbd": " 0.06%"
-    },
-    {
-      "name": "Nuken",
-      "description": "sofresh farms | Indica Dominant Hybrid | THC: 28.7% | CBD: 0.07% | Clean Green Certified\n\n",
-      "addedOn": "/Date(1411424733703+0000)/",
-      "imagePath": "",
-      "type": "Flower",
-      "preOrderEnabled": false,
-      "pricing": [
-        {
-          "Unit": "Gram",
-          "Price": 16
-        },
-        {
-          "Unit": "Half",
-          "Price": 135
-        },
-        {
-          "Unit": "One",
-          "Price": 260
-        }
-      ],
-      "id": 113,
-      "farm": "sofresh farms ",
-      "hasInfo": false,
-      "category": " Indica Dominant Hybrid ",
-      "thc": " 28.7% ",
-      "cbd": " 0.07% "
     },
     {
       "name": "Oregon's Finest Crew Neck Pullover Sweatshirt",
@@ -2360,42 +1988,6 @@ app.service('Products', function ($q) {
       ]
     },
     {
-      "name": "Platinum Kush",
-      "description": "sofresh farms | Indica | THC: 24.9% | CBD: 0.06% | Clean Green Certified ",
-      "addedOn": "/Date(1447542389655+0000)/",
-      "imagePath": "https://d3h17ltqi8v019.cloudfront.net/indica/platinum-kush/badge?width=100&padding=false",
-      "type": "Flower",
-      "preOrderEnabled": false,
-      "pricing": [
-        {
-          "Unit": "Gram",
-          "Price": 16
-        },
-        {
-          "Unit": "Half",
-          "Price": 135
-        },
-        {
-          "Unit": "One",
-          "Price": 260
-        }
-      ],
-      "strainInfo": {
-        "slug": "platinum-kush",
-        "name": "Platinum Kush",
-        "category": " Indica ",
-        "rating": 4.3,
-        "ratingCount": 345,
-        "symbol": "Plk",
-        "starImage": "https://d3h17ltqi8v019.cloudfront.net/stars/4/240?color=fcc91d"
-      },
-      "id": 124,
-      "farm": "sofresh farms ",
-      "hasInfo": true,
-      "thc": " 24.9% ",
-      "cbd": " 0.06% "
-    },
-    {
       "name": "PNW Medi Mate Tincture",
       "description": "From PNW Potions, THC: 3.08mg/g, CBD: 0.0",
       "addedOn": "/Date(1401385705651+0000)/",
@@ -2498,34 +2090,6 @@ app.service('Products', function ($q) {
       ]
     },
     {
-      "name": "Quad Dawg",
-      "description": "Ripped City Gardens | Hybrid | THC: 29.9% | CBD: 0.08%",
-      "addedOn": "/Date(1442545752111+0000)/",
-      "imagePath": "",
-      "type": "Flower",
-      "preOrderEnabled": false,
-      "pricing": [
-        {
-          "Unit": "Gram",
-          "Price": 14
-        },
-        {
-          "Unit": "Half",
-          "Price": 125
-        },
-        {
-          "Unit": "One",
-          "Price": 240
-        }
-      ],
-      "id": 132,
-      "farm": "Ripped City Gardens ",
-      "hasInfo": false,
-      "category": " Hybrid ",
-      "thc": " 29.9% ",
-      "cbd": " 0.08%"
-    },
-    {
       "name": "Raw Hemp Plastic Roller",
       "description": "-Plastic roller-\nFrom Raw",
       "addedOn": "/Date(1421183929240+0000)/",
@@ -2538,34 +2102,6 @@ app.service('Products', function ($q) {
           "Price": 4
         }
       ]
-    },
-    {
-      "name": "Red Rocket",
-      "description": "Big Beard Farms | Hybrid | THC: 26.2% | CBD: 0.07%",
-      "addedOn": "/Date(1445027807648+0000)/",
-      "imagePath": "",
-      "type": "Flower",
-      "preOrderEnabled": false,
-      "pricing": [
-        {
-          "Unit": "Gram",
-          "Price": 14
-        },
-        {
-          "Unit": "Half",
-          "Price": 125
-        },
-        {
-          "Unit": "One",
-          "Price": 240
-        }
-      ],
-      "id": 134,
-      "farm": "Big Beard Farms ",
-      "hasInfo": false,
-      "category": " Hybrid ",
-      "thc": " 26.2% ",
-      "cbd": " 0.07%"
     },
     {
       "name": "Reefer Rools | That Taffy ",
@@ -2684,106 +2220,6 @@ app.service('Products', function ($q) {
           "Price": 12
         }
       ]
-    },
-    {
-      "name": "Sour OG",
-      "description": "Ripped City Gardens | Hybrid | THC: 20.8% | CBD: 0.08%",
-      "addedOn": "/Date(1444764345230+0000)/",
-      "imagePath": "https://d3h17ltqi8v019.cloudfront.net/hybrid/sour-og/badge?width=100&padding=false",
-      "type": "Flower",
-      "preOrderEnabled": false,
-      "pricing": [
-        {
-          "Unit": "Gram",
-          "Price": 14
-        },
-        {
-          "Unit": "Half",
-          "Price": 115
-        },
-        {
-          "Unit": "One",
-          "Price": 220
-        }
-      ],
-      "strainInfo": {
-        "slug": "sour-og",
-        "name": "Sour OG",
-        "category": " Hybrid ",
-        "rating": 4.3,
-        "ratingCount": 367,
-        "symbol": "Sog",
-        "starImage": "https://d3h17ltqi8v019.cloudfront.net/stars/4/240?color=fcc91d"
-      },
-      "id": 143,
-      "farm": "Ripped City Gardens ",
-      "hasInfo": true,
-      "thc": " 20.8% ",
-      "cbd": " 0.08%"
-    },
-    {
-      "name": "Space Candy",
-      "description": "Ideal Farms | Sativa Dominant Hybrid | THC: 22.3%| CBD: 0.05%",
-      "addedOn": "/Date(1442461159285+0000)/",
-      "imagePath": "https://d3h17ltqi8v019.cloudfront.net/hybrid/space-candy/badge?width=100&padding=false",
-      "type": "Flower",
-      "preOrderEnabled": false,
-      "pricing": [
-        {
-          "Unit": "Gram",
-          "Price": 12
-        },
-        {
-          "Unit": "Eighth",
-          "Price": 40
-        },
-        {
-          "Unit": "Quarter",
-          "Price": 80
-        }
-      ],
-      "strainInfo": {
-        "slug": "space-candy",
-        "name": "Space Candy",
-        "category": " Sativa Dominant Hybrid ",
-        "rating": 4.5,
-        "ratingCount": 18,
-        "symbol": "Spa",
-        "starImage": "https://d3h17ltqi8v019.cloudfront.net/stars/4/240?color=fcc91d"
-      },
-      "id": 144,
-      "farm": "Ideal Farms ",
-      "hasInfo": true,
-      "thc": " 22.3%",
-      "cbd": " 0.05%"
-    },
-    {
-      "name": "Starkiller OG",
-      "description": "Bravehearts Private Reserve | Indica Dominant Hybrid | THC: 26.8% | CBD: 0.00%",
-      "addedOn": "/Date(1448501517090+0000)/",
-      "imagePath": "",
-      "type": "Flower",
-      "preOrderEnabled": false,
-      "pricing": [
-        {
-          "Unit": "Gram",
-          "Price": 16
-        },
-        {
-          "Unit": "Half",
-          "Price": 135
-        },
-        {
-          "Unit": "One",
-          "Price": 260
-        }
-      ],
-      "id": 145,
-      "farm": "Bravehearts Private Reserve ",
-      "hasInfo": false,
-      "category": " Indica Dominant Hybrid ",
-      "thc": " 26.8% ",
-      "cbd": " 0.00%"
     },
     {
       "name": "Synergy Skin Wrap",
@@ -2906,42 +2342,6 @@ app.service('Products', function ($q) {
       ]
     },
     {
-      "name": "The White",
-      "description": "House of Concentrates | Indica Dominant Hybrid | THC: 21.5% | CBD: 0.06%",
-      "addedOn": "/Date(1448162601775+0000)/",
-      "imagePath": "https://d3h17ltqi8v019.cloudfront.net/hybrid/the-white/badge?width=100&padding=false",
-      "type": "Flower",
-      "preOrderEnabled": false,
-      "pricing": [
-        {
-          "Unit": "Gram",
-          "Price": 10
-        },
-        {
-          "Unit": "Half",
-          "Price": 95
-        },
-        {
-          "Unit": "One",
-          "Price": 180
-        }
-      ],
-      "strainInfo": {
-        "slug": "the-white",
-        "name": "The White",
-        "category": " Indica Dominant Hybrid ",
-        "rating": 4.5,
-        "ratingCount": 150,
-        "symbol": "Twt",
-        "starImage": "https://d3h17ltqi8v019.cloudfront.net/stars/4/240?color=fcc91d"
-      },
-      "id": 154,
-      "farm": "House of Concentrates ",
-      "hasInfo": true,
-      "thc": " 21.5% ",
-      "cbd": " 0.06%"
-    },
-    {
       "name": "Tj's Hypnos THC Infused Capsules 10 pk",
       "description": "THC: 20mg, CBD: 2mg",
       "addedOn": "/Date(1415249500015+0000)/",
@@ -2954,42 +2354,6 @@ app.service('Products', function ($q) {
           "Price": 30
         }
       ]
-    },
-    {
-      "name": "True OG",
-      "description": "Bravehearts Private Reserve | Indica | THC: 21.6% | CBD: 0.07%",
-      "addedOn": "/Date(1439079803018+0000)/",
-      "imagePath": "https://d3h17ltqi8v019.cloudfront.net/i/140510/w200",
-      "type": "Flower",
-      "preOrderEnabled": false,
-      "pricing": [
-        {
-          "Unit": "Gram",
-          "Price": 16
-        },
-        {
-          "Unit": "Half",
-          "Price": 135
-        },
-        {
-          "Unit": "One",
-          "Price": 260
-        }
-      ],
-      "strainInfo": {
-        "slug": "true-og",
-        "name": "True OG",
-        "category": " Indica ",
-        "rating": 4.4,
-        "ratingCount": 199,
-        "symbol": "Tru",
-        "starImage": "https://d3h17ltqi8v019.cloudfront.net/stars/4/240?color=fcc91d"
-      },
-      "id": 156,
-      "farm": "Bravehearts Private Reserve ",
-      "hasInfo": true,
-      "thc": " 21.6% ",
-      "cbd": " 0.07%"
     },
     {
       "name": "Truly Pure Vape Cartridges",
@@ -3008,42 +2372,6 @@ app.service('Products', function ($q) {
           "Price": 40
         }
       ]
-    },
-    {
-      "name": "Wedding Cake",
-      "description": "Liontree Farms | Indica Dominant Hybrid | THC: 22.1% | CBD: 0.20%",
-      "addedOn": "/Date(1447181014550+0000)/",
-      "imagePath": "https://d3h17ltqi8v019.cloudfront.net/hybrid/birthday-cake-kush/badge?width=100&padding=false",
-      "type": "Flower",
-      "preOrderEnabled": false,
-      "pricing": [
-        {
-          "Unit": "Gram",
-          "Price": 12
-        },
-        {
-          "Unit": "Half",
-          "Price": 115
-        },
-        {
-          "Unit": "One",
-          "Price": 220
-        }
-      ],
-      "strainInfo": {
-        "slug": "birthday-cake-kush",
-        "name": "Birthday Cake Kush",
-        "category": " Indica Dominant Hybrid ",
-        "rating": 4.3,
-        "ratingCount": 42,
-        "symbol": "Bir",
-        "starImage": "https://d3h17ltqi8v019.cloudfront.net/stars/4/240?color=fcc91d"
-      },
-      "id": 158,
-      "farm": "Liontree Farms ",
-      "hasInfo": true,
-      "thc": " 22.1% ",
-      "cbd": " 0.20%"
     }
   ]
   var products = [{

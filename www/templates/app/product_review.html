@@ -1,5 +1,5 @@
 <ion-view view-title="Review">
-  <ion-content id="page-review" class="header-background" scroll="false">
+  <ion-content id="page-profile" ng-controller="ReviewCtrl" class="header-background" scroll="false">
     <ion-header-bar align-title="center">
       <div class="buttons">
         <button class="button button-icon button-clear ion-navicon" menu-toggle="left"></button>
@@ -9,10 +9,11 @@
 
     <div class="box">
       <div class="info">
-        <div class="avatar">
-          <img src="{{product.imagePath}}" alt="avatar" />
+        <div class="avatar" ui-sref="app.product_detail({ productId : product.id})">
+          <img ng-src="{{product.imagePath}}" alt="avatar"/>
         </div>
         <h2 class="name">{{product.name}}</h2>
+
         <div class="position">{{product.farm}}</div>
         <div class="links">
           <div class="row">
@@ -30,15 +31,22 @@
             </div>
           </div>
         </div>
+
         <div class="row">
           <div class="col">
-            <button ui-sref="app.category" class="button-follow button button-block button-outline button-light">
+            <button ui-sref="app.category"
+                    class="icon-left ion-chatbox-working button-follow button button-block button-outline button-light">
               Leave a review
             </button>
           </div>
         </div>
 
+        </div>
+
+
       </div>
+
+    </div>
     </div>
 
 

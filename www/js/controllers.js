@@ -25,8 +25,10 @@ angular.module('ofmeds_app.controllers', [])
       });
 
     })
-    .controller('ReviewCtrl', function ($scope){
-      debugger;
+    .controller('ReviewCtrl', function ($scope, $timeout, $state, $stateParams, Cates, Products){
+      Products.getById($stateParams.productId).then(function(res){
+        $scope.product = res;
+      });
     })
     .controller('ScanCtrl', function ($scope, $ionicModal, $ionicPlatform, $cordovaBarcodeScanner, $state, $stateParams, Products ) {
 
@@ -36,10 +38,14 @@ angular.module('ofmeds_app.controllers', [])
           //if scan is not cancelled
           if(!imageData.cancelled){
             //look for the product by scanned id
-            Products.getById(imageData.text).then(function(res){
-              alert(res);
-              //if successful, take app to product detail
-              $state.go('app.product_detail', {productId : res.id})
+            var scanCode = JSON.parse(imageData.text);
+            Products.getById(scanCode.productId).then(function(res){              //if successful, check which type of code, take app to product detail or review
+              if (scanCode.scanType === "review"){
+                $state.go('app.product_review', {productId : scanCode.productId})
+              }else {
+                $state.go('app.product_detail', {productId : scanCode.productId})
+              }
+
             }), function (error){
               alert('an error occured');
             };

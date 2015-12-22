@@ -2,11 +2,11 @@
   <ion-header-bar align-title="center" class="bar-light">
     <ion-nav-bar align-title="center">
       <ion-nav-buttons>
-        <button class="button button-clear button-icon" ng-click="goBack()" ><i class="ion-chevron-left"></i></button>
+        <button class="button button-clear button-icon" ng-click="goBack()"><i class="ion-chevron-left"></i></button>
       </ion-nav-buttons>
     </ion-nav-bar>
   </ion-header-bar>
-  <ion-content class="header-background">
+  <ion-content class="header-background" scroll="true">
     <!-- <form>
         <div class="product-header" style="background:none;">
             <div style="height:100px; width:100px; background: url({{product.imagePath}}) no-repeat; background-size: cover;"></div>
@@ -43,8 +43,20 @@
 
       <div class="item item-avatar">
         <img src="{{product.imagePath}}">
+
         <h2>{{product.name}}</h2>
+
         <p>{{product.strainInfo.category}}</p>
+      </div>
+      <div class="item item-image">
+        <ion-slide-box>
+          <ion-slide>
+            <img src="{{product.images[1]}}">
+          </ion-slide>
+          <ion-slide>
+            <img src="{{product.images[0]}}">
+          </ion-slide>
+        </ion-slide-box>
       </div>
       <div class="item tabs tabs-secondary tabs-icon-left">
         <a class="tab-item" href="#">
@@ -60,34 +72,35 @@
           Share
         </a>
       </div>
-
-      <div class="item">
-        <a class="item" href="#">
-          <strong>Price: </strong> ${{product.pricing[0].Price}} - ${{product.pricing[product.pricing.length-1].Price}}
-        </a>
-        <a class="item" href="#">
-          <strong>Available at: </strong>Convention Center, Pearl District
-        </a>
-        <a class="item" href="#">
-          <strong>Grown By: </strong> {{product.farm}}
-        </a>
-        <a class="item" href="#">
-          <strong>Strain type: </strong> {{product.strainInfo.category}}
-        </a>
-        <a class="item" href="#">
-          <strong>THC: </strong> {{product.thc}}
-        </a>
-        <a class="item" href="#">
-          <strong>CBD: </strong> {{product.cbd}}
-        </a>
-        <!--     <img class="center" src="{{product.imagePath}}">
-        <p>
-          {{product.thc}} {{product.cbd}}
-        </p> -->
+      <div class="item item-divider">
+        Availability
       </div>
-      <ion-item collection-repeat="image in product.images">
-        {{image}}
-      </ion-item>
+      <div class="item">
+        <strong>Price: </strong> ${{product.pricing[0].Price}} - ${{product.pricing[product.pricing.length-1].Price}}
+      </div>
+      <div class="item">
+        <strong>Available at: </strong>Convention Center, Pearl District
+      </div>
+      <div class="item item-divider">
+        Strain Info
+      </div>
+      <div class="item">
+        <strong>Grown By: </strong> {{product.farm}}
+      </div>
+      <div class="item">
+        <strong>Strain type: </strong> {{product.strainInfo.category}}
+      </div>
+      <div class="item">
+        <strong>THC: </strong> {{product.thc}}
+      </div>
+      <div class="item">
+        <strong>CBD: </strong> {{product.cbd}}
+      </div>
+      <!--     <img class="center" src="{{product.imagePath}}">
+      <p>
+        {{product.thc}} {{product.cbd}}
+      </p> -->
+
     </div>
   </ion-content>
 </ion-view>
